@@ -1,0 +1,28 @@
+{% extends  'base.html' %}
+
+{% block body %}
+
+<h1>{{ the_title }}</h1>
+<table>
+    <tr>
+        <td>
+            Phrase entered : 
+        </td>
+        <td>
+            {{the_phrase}}
+        </td>
+        <td>
+            Letters were : 
+        </td>
+        <td>
+            {{the_letter}}
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Result obtained : 
+        </td>
+        <td><h3>{{the_result}}</h3></td>
+    </tr>
+</table>
+{% endblock %}
